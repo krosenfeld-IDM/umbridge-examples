@@ -1,6 +1,8 @@
 # umbridge-examples
 Examples demonstrating umbridge workflow
-```
-pip install -r requirements.txt
-```
-and then follow the instructions in the `README.md` for the example you are interested in.
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/krosenfeld-IDM/umbridge-examples)
+
+Follow the instructions in the `README.md` for the example you are interested in.
+
+
