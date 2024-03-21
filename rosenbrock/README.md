@@ -13,5 +13,5 @@ docker run -it -p 4243:4243 umbridge-rosenbrock
 
 2. Run the emcee client
 ```
-python client.py
+python client_emcee.py
 ```
