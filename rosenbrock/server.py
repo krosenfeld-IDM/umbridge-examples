@@ -3,7 +3,7 @@ import numpy as np
 
 class Rosenbrock(umbridge.Model):
     """
-    A class representing the Rosenbrock function.
+    A class representing the 2D Rosenbrock function.
 
     Attributes:
         radius (float): The radius of the banana.
