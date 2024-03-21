@@ -2,7 +2,7 @@
 2D Rosenbrock example
 
 ## Instructions:
-1. Build Docker image and name it "umbridge-rosenbrock:
+1. Build Docker image and name it `umbridge-rosenbrock`:
 ```
 docker build -t umbridge-rosenbrock .
 ```
