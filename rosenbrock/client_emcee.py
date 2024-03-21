@@ -24,8 +24,8 @@ if __name__ == "__main__":
     # Create an instance of EnsembleSampler with the specified number of walkers, dimensions, and log probability function
     sampler = emcee.EnsembleSampler(nwalkers, log_prob.ndim, log_prob)
 
-    # Run the MCMC sampler for 100 steps starting from random positions on [0, 1]^2
-    p0 = np.random.rand(nwalkers, log_prob.ndim)
+    # Run the MCMC sampler for 100 steps starting from random positions selected from a Gaussian distribution centered at (0, 0)
+    p0 = np.random.randn(nwalkers, log_prob.ndim)
     state = sampler.run_mcmc(p0, 100)
 
     # Convert the sampler output to an InferenceData object
